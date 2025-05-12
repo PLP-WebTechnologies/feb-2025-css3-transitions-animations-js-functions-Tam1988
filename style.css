@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: purple;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Button Styling */
+#animateButton {
+    padding: 20px 30px;
+    font-size: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#animateButton:hover {
+    background-color: palevioletred;
+    color: yellow;
+}
+
+/* Image Styling */
+#animatedImage {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    transition: transform 1s ease-in-out;
+}
+
+/* Animation for Image */
+.animate {
+     transform: rotate(360deg);  
+}
+
+ 
